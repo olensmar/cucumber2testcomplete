@@ -93,8 +93,14 @@
 			<Node name="..\..\..\..\..\..\..\..\..\documents\testcomplete 9 projects\automationtest\automationtest\script\script.tcscript">
 				<Prp name="relpath" type="S" value="..\..\..\..\..\..\..\..\..\Documents\TestComplete 9 Projects\AutomationTest\AutomationTest\Script\Script.tcScript"/>
 			</Node>
+			<Node name="..\..\..\..\..\..\..\..\..\documents\testcomplete 9 projects\automationtest\automationtest\script\soapuisteps.sj">
+				<Prp name="relpath" type="S" value="..\..\..\..\..\..\..\..\..\Documents\TestComplete 9 Projects\AutomationTest\AutomationTest\Script\SoapUISteps.sj"/>
+			</Node>
 			<Node name="..\..\..\..\..\..\..\..\..\documents\testcomplete 9 projects\automationtest\automationtest\script\visualizer\notepadsteps_sj\notepadsteps.sj.tcvis">
 				<Prp name="relpath" type="S" value="..\..\..\..\..\..\..\..\..\Documents\TestComplete 9 Projects\AutomationTest\AutomationTest\Script\Visualizer\NotepadSteps_sj\NotepadSteps.sj.tcVis"/>
+			</Node>
+			<Node name="..\..\..\..\..\..\..\..\..\documents\testcomplete 9 projects\automationtest\automationtest\script\visualizer\soapuisteps_sj\soapuisteps.sj.tcvis">
+				<Prp name="relpath" type="S" value="..\..\..\..\..\..\..\..\..\Documents\TestComplete 9 Projects\AutomationTest\AutomationTest\Script\Visualizer\SoapUISteps_sj\SoapUISteps.sj.tcVis"/>
 			</Node>
 			<Node name="..\..\..\..\..\..\..\..\..\documents\testcomplete 9 projects\automationtest\automationtest\stores\stores.tcstores">
 				<Prp name="relpath" type="S" value="..\..\..\..\..\..\..\..\..\Documents\TestComplete 9 Projects\AutomationTest\AutomationTest\Stores\Stores.tcStores"/>

@@ -66,14 +66,23 @@ class TestCompleteWorld {
     }
 
     void runRoutineEx(String name, Object[] args) {
+
         Console.println("running [$name] with arguments [$args] in project [$project]")
         try {
             runWithDelays({
-                integration.RunRoutineEx("AutomationTest", "NotepadSteps", name, args)
+               integration.RunRoutineEx(project, scriptUnit, name, args)
             })
         }
         catch (Throwable t) {
             throw new Exception("Call to [$name] with arguments [$args] failed")
         }
+    }
+
+    void callScript( name, Object [] args)
+    {
+        if ( args.length > 0 )
+            runRoutineEx( name, args )
+        else
+            runRoutine(name)
     }
 }

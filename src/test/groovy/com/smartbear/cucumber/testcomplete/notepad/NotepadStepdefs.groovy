@@ -1,4 +1,6 @@
-package com.smartbear.cucumber.testcomplete
+package com.smartbear.cucumber.testcomplete.notepad
+
+import com.smartbear.cucumber.testcomplete.TestCompleteWorld
 
 import static org.junit.Assert.assertTrue
 
@@ -11,7 +13,7 @@ World {
 
 Given(~'^notepad is running$') {->
     // pass on to TestComplete
-    runRoutine("notepad_is_running")
+    callScript("notepad_is_running")
 }
 
 When(~'I load the file (.*)') { String filename ->
@@ -23,10 +25,10 @@ When(~'I load the file (.*)') { String filename ->
     assertTrue( "Missing file $file",  file.exists() )
 
     // pass on to TestComplete
-    runRoutineEx("I_load_the_file", file.absolutePath)
+    callScript("I_load_the_file", file.absolutePath)
 }
 
 Then(~'the editor should contain (.*)') { String text ->
     // pass on to TestComplete
-    runRoutineEx("the_editor_should_contain", text)
+    callScript("the_editor_should_contain", text)
 }
